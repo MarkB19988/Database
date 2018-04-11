@@ -113,6 +113,10 @@ UPDATE HEROES
 UPDATE SPELLS
     SET RAGE = 4
     WHERE ID = 4;
+   
+UPDATE SPELLS
+    SET DAMAGEHEALING = 4
+    WHERE NAME = FIREBALL;
     
 #### Delete
 This command is used to delete values from tables, the type of data can be specified.
@@ -120,5 +124,17 @@ This command is used to delete values from tables, the type of data can be speci
 #### Select
 This command is used to search the database for any data that matches the paramaters you inpud into the command, it will then return any found data that fits these paramaters to you.
 
+SELECT H.CLASS, H.LEVEL, S.NAME, HS.LEVEL
+FROM HERO H, SKILLS S, HERO_SKILLS HS
+WHERE HS.HERO_ID = H.ID AND HS.SKILL_ID = S.ID
+AND S.NAME LIKE 'Fire%';
+
 SELECT * FROM HERO;
+
+SELECT LEVEL, CLASS FROM HERO
+WHERE ID = 2;
+
+SELECT MAX(H.LEVEL), MIN(H.LEVEL) FROM HERO H;
+
+SELECT AVG(H.LEVEL) FROM HERO H;
 
