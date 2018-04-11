@@ -15,10 +15,10 @@ To create my Entity Relationship Diagram I used an online tool called 'draw.io' 
 To create my Data Dictionary I used Microsoft Excel, a tool used to create tables and graphs and can be used to store values in a spreadsheet
 
 ![ERD](https://i.imgur.com/S1zF9uD.jpg)
-My Entity Relationship Diagram
+###### My Entity Relationship Diagram
 
 ![DataDictionary](https://i.imgur.com/qYy0eRL.png)
-My Data Dictionary
+###### My Data Dictionary
 
 #### User Stories
 
@@ -48,4 +48,41 @@ My Data Dictionary
 
 ###### As a user I would like to use SQL code to add new tables to the database
 
+
+### Code I Used To Create My Database
+
+Below are some of the SQL code snippets that I used to create my databse, they come under the following types:
+
+#### Insert
+This command is used to insert values and data into tables.
+
+INSERT INTO ENEMIES VALUES( 
+    1, 50,'MAGE', 150,'HEALTHY'
+);
+
+#### Create
+This command is used to create new tables with new values.
+
+CREATE TABLE ENEMIES(
+         ID INT NOT NULL PRIMARY KEY,
+         LEVEL INT NOT NULL,
+         NAME VARCHAR(50) NOT NULL,
+         DAMAGE FLOAT NOT NULL,
+         HP FLOAT NOT NULL
+);
+
+#### Update
+This command is used to update the value of data within a table without having to create a new table.
+
+UPDATE HERO
+    SET LEVEL = 4
+    WHERE ID = 1;
+    
+#### Delete
+This command is used to delete values from tables, the type of data can be specified.
+
+#### Select
+This command is used to search the database for any data that matches the paramaters you inpud into the command, it will then return any found data that fits these paramaters to you.
+
+SELECT * FROM HERO;
 
