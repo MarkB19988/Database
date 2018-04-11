@@ -48,6 +48,13 @@ To create my Data Dictionary I used Microsoft Excel, a tool used to create table
 
 ###### As a user I would like to use SQL code to add new tables to the database
 
+### Forms, Data Validations and Reports
+
+Below are screenshots of my Forms that have data validation built in and the Report that is generated.
+
+![Imgur](https://i.imgur.com/KMPwHH6.png)
+![Imgur](https://i.imgur.com/gPu47EP.png)
+![Imgur](https://i.imgur.com/K8QkTCm.png)
 
 ### Code I Used To Create My Database
 
