@@ -64,7 +64,15 @@ Below are some of the SQL code snippets that I used to create my databse, they c
 This command is used to insert values and data into tables.
 
 INSERT INTO ENEMIES VALUES( 
-    1, 50,'MAGE', 150,'HEALTHY'
+    1, 50,'MAGE', 150,'30'
+);
+
+INSERT INTO HEROES VALUES( 
+    2, 20,'PALADIN', 150,'50'
+);
+
+INSERT INTO SPELLS VALUES( 
+    1, 50,'FIREBALL', '150'
 );
 
 #### Create
@@ -127,6 +135,13 @@ UPDATE SPELLS
     
 #### Delete
 This command is used to delete values from tables, the type of data can be specified.
+
+DELETE FROM ENEMIES WHERE ID=2
+LEVEL > 2 AND NAME='DRAGON';
+
+DELETE FROM ENEMIES WHERE NAME = 'MAGE';
+
+DELETE FROM SPELLS WHERE RANGE = 50 ;
 
 #### Select
 This command is used to search the database for any data that matches the paramaters you inpud into the command, it will then return any found data that fits these paramaters to you.
