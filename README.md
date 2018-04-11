@@ -208,5 +208,21 @@ Object-oriented database management systems combine database capabilities with o
 
 The system is designed to hold data on the status of different characters and spells within the game
 
+### Testing the System
 
+This is the test plan that we created to test our database system against:
+![Imgur](https://i.imgur.com/LzUQA9j.jpg)
 
+The following are screenshots showing evidence of our testing:
+
+![Imgur](https://i.imgur.com/HiP8WgB.jpg)
+![Imgur](https://i.imgur.com/DlWJkF3.jpg)
+![Imgur](https://i.imgur.com/hcRZnYg.jpg)
+![Imgur](https://i.imgur.com/ymRbWPC.jpg)
+![Imgur](https://i.imgur.com/DaIjdro.jpg)
+![Imgur](https://i.imgur.com/UYpVz2T.jpg)
+![Imgur](https://i.imgur.com/gsOTjzC.jpg)
+![Imgur](https://i.imgur.com/ynlwh3N.jpg)
+![Imgur](https://i.imgur.com/NGN9Wqo.jpg)
+![Imgur](https://i.imgur.com/YzzIUiM.jpg)
+![Imgur](https://i.imgur.com/A8Iy6h1.jpg)
