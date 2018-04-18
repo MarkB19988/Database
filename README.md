@@ -53,13 +53,18 @@ To create my Data Dictionary I used Microsoft Excel, a tool used to create table
 Below are screenshots of my Forms that have data validation built in and the Report that is generated.
 
 #### Forms
+These forms are used to input data to the database and also do delete entries from the database.
+
 ![Imgur](https://i.imgur.com/gPu47EP.png)
 ![Imgur](https://i.imgur.com/K8QkTCm.png)
 
 #### Data Validation
+Below is an error that occours if the user attempts to input an invalid type of data into the form.
+
 ![Imgur](https://i.imgur.com/2VKLbUe.jpg)
 
 #### Report
+This is a report of all of the data entries held in the databse in the enemies table and some selected statistics about each enemy.
 ![Imgur](https://i.imgur.com/g2yWyqd.jpg)
 
 ### Code I Used To Create My Database
